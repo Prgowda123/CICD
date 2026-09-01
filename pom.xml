@@ -40,12 +40,6 @@
 <version>7.10.2</version>
 <scope>test</scope>
 </dependency>
-<dependency>
-<groupId>org.testng</groupId>
-<artifactId>testng</artifactId>
-<version>7.10.2</version>
-<scope>test</scope>
-</dependency>
 <!--  Selenium Java Dependency  -->
 <dependency>
 <groupId>org.seleniumhq.selenium</groupId>
