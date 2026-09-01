@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>seleniumCICD</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <dependencies>
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>rest-assured</artifactId>
+<version>5.4.0</version>
+<scope>test</scope>
+</dependency>
+<!--  https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind  -->
+<dependency>
+<groupId>com.fasterxml.jackson.core</groupId>
+<artifactId>jackson-databind</artifactId>
+<version>2.17.1</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core  -->
+<dependency>
+<groupId>com.fasterxml.jackson.core</groupId>
+<artifactId>jackson-core</artifactId>
+<version>2.17.1</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/com.google.code.gson/gson  -->
+<dependency>
+<groupId>com.google.code.gson</groupId>
+<artifactId>gson</artifactId>
+<version>2.11.0</version>
+</dependency>
+<!--  https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple  -->
+<dependency>
+<groupId>com.googlecode.json-simple</groupId>
+<artifactId>json-simple</artifactId>
+<version>1.1.1</version>
+</dependency>
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>7.10.2</version>
+<scope>test</scope>
+</dependency>
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>7.10.2</version>
+<scope>test</scope>
+</dependency>
+<!--  Selenium Java Dependency  -->
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>4.20.0</version>
+</dependency>
+<!--  Optional: AssertJ for fluent assertions  -->
+<dependency>
+<groupId>org.assertj</groupId>
+<artifactId>assertj-core</artifactId>
+<version>3.23.1</version>
+</dependency>
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi</artifactId>
+<version>5.2.3</version>
+</dependency>
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi-ooxml</artifactId>
+<version>5.2.3</version>
+</dependency>
+<dependency>
+<groupId>org.apache.pdfbox</groupId>
+<artifactId>pdfbox</artifactId>
+<version>2.0.32</version>
+<!--  or the latest version  -->
+</dependency>
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi</artifactId>
+<version>5.2.3</version>
+</dependency>
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi-ooxml</artifactId>
+<version>5.2.3</version>
+</dependency>
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20231013</version>
+</dependency>
+
+
+  	<dependency>
+  		<groupId>abc</groupId>
+  		<artifactId>sddf</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>
