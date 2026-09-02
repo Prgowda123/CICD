@@ -8,6 +8,7 @@
 
         <classes>
             <class name="testrun.NTT_DATA"/>
+            <class name="testrun.UAMS_Login"/>
         </classes>
 
     </test>
