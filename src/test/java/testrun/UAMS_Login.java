@@ -32,6 +32,10 @@ public class UAMS_Login {
 		
 		WebElement signin = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[contains(text(),'Sign In')]")));
 		signin.click();
+		
+		WebElement dashboard = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'Dashboard')]")));
+		
+		System.out.println("Dashboard is displayed: " + dashboard.isDisplayed());
 		System.out.println("logged in successfully");
 		driver.quit();
 	}
